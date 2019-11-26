@@ -1,0 +1,100 @@
+{
+    "type": "APL",
+    "version": "1.1",
+    "settings": {},
+    "theme": "dark",
+    "import": [
+        {
+            "name": "alexa-layouts",
+            "version": "1.0.0"
+        }
+    ],
+    "resources": [],
+    "styles": {},
+    "onMount": [],
+    "graphics": {},
+    "commands": {},
+    "layouts": {
+        "barraRolamento":{
+            "parameters": [
+                    "objetoProjetos"
+                ],
+            "items": [
+                    {
+                        "type": "Container",
+                        "width": "30vw",
+                        "height": "70vh",
+                        "alignItems": "start",
+                        "direction": "row",
+                        "items": [
+                            {
+                                "type": "Sequence",
+                                "width": "100%",
+                                "height": "100%",
+                                "data": "${objetoProjetos}",
+                                "item": [
+                                    {
+                                        "type": "Frame",
+                                        "width": "30vw",
+                                        "height": "30vh",
+                                        "paddingLeft": "1vh",
+                                        "item": [
+                                            {
+                                                "type": "Container",
+                                                "width": "30vw",
+                                                "height": "40vh",
+                                                "alignItems": "center",
+                                                "direction": "column",
+                                                "shadowColor": "orange",
+                                                "items": [
+                                                    {
+                                                        "type": "Text",
+                                                        "width": "25vw",
+                                                        "height": "6vh",
+                                                        "paddingLeft": "0.25vw",
+                                                        "color": "#1E2222",
+                                                        "top": "2vh",
+                                                        "fontSize": "3.2vh",
+                                                        "text": "${data.textoPrimario}",
+                                                        "fontWeight": "bold",
+                                                        "letterSpacing": "0.45vh"
+                                                    },
+                                                    {
+                                                        "type": "Text",
+                                                        "width": "25vw",
+                                                        "top": "6vh",
+                                                        "height": "6vh",
+                                                        "color": "#1E2222",
+                                                        "fontSize": "3vh",
+                                                        "text": "${data.textoSecundario}",
+                                                        "fontWeight": "400",
+                                                        "letterSpacing": "0.45vh"
+                                                    },
+                                                    {
+                                                        "type": "Text",
+                                                        "width": "25vw",
+                                                        "height": "6vh",
+                                                        "top": "9vh",
+                                                        "color": "#1E2222",
+                                                        "fontSize": "3vh",
+                                                        "text": "${data.textoTerciario}",
+                                                        "fontWeight": "400",
+                                                        "letterSpacing": "0.45vh"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "backgroundColor": "#FFEBCD",
+                                        "borderColor": "#F0FFFF",
+                                        "borderWidth": "0.7vh",
+                                        "numbering": "normal",
+                                        "spacing": "2vh"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+        }
+    }
+}
