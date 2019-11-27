@@ -127,16 +127,17 @@
                 ]
         },
         "rolagemSprint": {
-            "parameters":[
+            "parameters": [
                 "objeto"
             ],
-            "items":[
-               {
+            "items": [
+                {
                     "type": "Container",
                     "width": "22vw",
                     "height": "32vw",
                     "alignItems": "center",
-                    "paddingLeft": "1vw",
+                    "paddingLeft": "0.5vw",
+                    "paddingTop": "1vw",
                     "items": [
                         {
                             "type": "Sequence",
@@ -148,7 +149,7 @@
                                 {
                                     "when": "${data}",
                                     "type": "Frame",
-                                    "width": "20vw",
+                                    "width": "21vw",
                                     "height": "25vh",
                                     "backgroundColor": "@amareloPostIt",
                                     "borderColor": "black",
@@ -158,12 +159,12 @@
                                         {
                                             "type": "Container",
                                             "height": "25vh",
-                                            "width": "17.5vw",
+                                            "width": "22vw",
                                             "items": [
                                                 {
                                                     "type": "Text",
-                                                    "width": "17.5vw",
-                                                    "paddingLeft": "0.5vw",
+                                                    "width": "21vw",
+                                                    "paddingLeft": "1vw",
                                                     "paddingBottom": "1.5vh",
                                                     "color": "#1E2222",
                                                     "top": "2vh",
@@ -174,8 +175,8 @@
                                                 },
                                                 {
                                                     "type": "Text",
-                                                    "width": "19.5vw",
-                                                    "paddingLeft": "0.5vw",
+                                                    "width": "20vw",
+                                                    "paddingLeft": "1vw",
                                                     "paddingBottom": "1.5vh",
                                                     "color": "#1E2222",
                                                     "top": "2vh",
@@ -186,8 +187,8 @@
                                                 },
                                                 {
                                                     "type": "Text",
-                                                    "width": "19.5vw",
-                                                    "paddingLeft": "0.5vw",
+                                                    "width": "21vw",
+                                                    "paddingLeft": "1vw",
                                                     "color": "#1E2222",
                                                     "top": "2vh",
                                                     "fontSize": "2.5vh",
@@ -195,7 +196,7 @@
                                                     "fontWeight": "500",
                                                     "letterSpacing": "0.45vh"
                                                 }
-                                                ]
+                                            ]
                                         }
                                     ]
                                 }
