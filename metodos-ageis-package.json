@@ -148,7 +148,7 @@
                                 {
                                     "when": "${data}",
                                     "type": "Frame",
-                                    "width": "18vw",
+                                    "width": "20vw",
                                     "height": "25vh",
                                     "backgroundColor": "@amareloPostIt",
                                     "borderColor": "black",
