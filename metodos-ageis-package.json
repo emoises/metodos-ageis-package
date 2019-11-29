@@ -7,8 +7,7 @@
         {
             "name": "alexa-layouts",
             "version": "1.0.0"
-        }
-    ],
+        }],
     "resources": [
         {
             "description": "Cores predefinidas do métodos ágeis",
@@ -26,7 +25,7 @@
                 "bordaPostItProjeto": "#F0FFFF"
             }
         }
-        ],
+    ],
     "styles": {},
     "onMount": [],
     "graphics": {},
@@ -38,6 +37,7 @@
             ],
             "items": [
                 {
+                    "when": "${payload.objeto.projetos.length > 0}",
                     "type": "Container",
                     "width": "30vw",
                     "height": "70vh",
@@ -51,7 +51,6 @@
                             "data": "${objetoProjetos}",
                             "item": [
                                 {
-                                    "when": "${payload.objetoProjetos.length > 0}",
                                     "type": "Frame",
                                     "width": "30vw",
                                     "height": "38vh",
@@ -109,8 +108,7 @@
                         }
                     ]
                 }
-            ]
-        },
+            ]},
         "metodosAgeisFooter": {
             "parameters": [
                 "hintText"
@@ -124,8 +122,7 @@
                         "fontSize": "6vh",
                         "text": "${hintText}"
                     }
-                ]
-        },
+                ]},
         "rolagemSprint": {
             "parameters": [
                 "objeto"
@@ -204,7 +201,5 @@
                         }
                     ]
                 }
-            ]
-        }
-    }
+            ]}}
 }
