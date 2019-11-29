@@ -48,10 +48,10 @@
                             "type": "Sequence",
                             "width": "100%",
                             "height": "100%",
-                            "data": "${objetoProjetos.projetos}",
+                            "data": "${objetoProjetos}",
                             "item": [
                                 {
-                                    "when": "${payload.objetoProjetos.projetos.length > 0}",
+                                    "when": "${payload.objetoProjetos.length > 0}",
                                     "type": "Frame",
                                     "width": "30vw",
                                     "height": "38vh",
@@ -145,7 +145,7 @@
                             "width": "100%",
                             "height": "100%",
                             "alignSelf": "center",
-                            "data": "${objeto.projetos}",
+                            "data": "${objeto}",
                             "item": [
                                 {
                                     "when": "${data}",
