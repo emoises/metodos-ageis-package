@@ -166,7 +166,7 @@
                                                     "color": "#1E2222",
                                                     "top": "2vh",
                                                     "fontSize": "2.5vh",
-                                                    "text": "Projeto: ${data.textoPrimario}",
+                                                    "text": "${payload.texto.projectTranslation + ' ' + data.textoPrimario}",
                                                     "fontWeight": "bold",
                                                     "letterSpacing": "0.45vh"
                                                 },
@@ -178,7 +178,7 @@
                                                     "color": "#1E2222",
                                                     "top": "2vh",
                                                     "fontSize": "2.5vh",
-                                                    "text": "Responsavel: ${data.textoSecundario}",
+                                                    "text": "${payload.texto.responsableTranslation + ' ' + data.textoSecundario}",
                                                     "fontWeight": "500",
                                                     "letterSpacing": "0.45vh"
                                                 },
@@ -189,7 +189,7 @@
                                                     "color": "#1E2222",
                                                     "top": "2vh",
                                                     "fontSize": "2.5vh",
-                                                    "text": "data: ${data.textoTerciario}",
+                                                    "text": "${payload.texto.timeTranslation + ' ' + data.textoTerciario}",
                                                     "fontWeight": "500",
                                                     "letterSpacing": "0.45vh"
                                                 }
