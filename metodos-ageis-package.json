@@ -76,7 +76,7 @@
                                                     "color": "#1E2222",
                                                     "top": "2vh",
                                                     "fontSize": "3.2vh",
-                                                    "text": "Projeto: ${data.textoPrimario}",
+                                                    "text": "${payload.texto.projectTranslation + data.textoPrimario}",
                                                     "fontWeight": "bold",
                                                     "letterSpacing": "0.45vh"
                                                 },
@@ -96,7 +96,7 @@
                                                     "top": "9vh",
                                                     "color": "#1E2222",
                                                     "fontSize": "3vh",
-                                                    "text": "criado em ${data.textoTerciario}",
+                                                    "text": "${payload.texto.timeTranslation + data.textoPrimario}",
                                                     "fontWeight": "400",
                                                     "letterSpacing": "0.45vh"
                                                 }
