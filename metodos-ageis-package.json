@@ -76,7 +76,7 @@
                                                     "color": "#1E2222",
                                                     "top": "2vh",
                                                     "fontSize": "3.2vh",
-                                                    "text": "${payload.texto.sprintTitle + ' ' + data.textoPrimario}",
+                                                    "text": "${payload.texto.projectTranslation + ' ' + data.textoPrimario}",
                                                     "fontWeight": "bold",
                                                     "letterSpacing": "0.45vh"
                                                 },
