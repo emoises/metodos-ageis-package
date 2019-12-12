@@ -76,7 +76,7 @@
                                                     "color": "#1E2222",
                                                     "top": "2vh",
                                                     "fontSize": "3.2vh",
-                                                    "text": "${payload.texto.projectTranslation + ' ' + data.textoPrimario}",
+                                                    "text": "${payload.texto.sprintTitle + ' ' + data.textoPrimario}",
                                                     "fontWeight": "bold",
                                                     "letterSpacing": "0.45vh"
                                                 },
@@ -166,7 +166,7 @@
                                                     "color": "#1E2222",
                                                     "top": "2vh",
                                                     "fontSize": "2.5vh",
-                                                    "text": "${payload.texto.projectTranslation + ' ' + data.textoPrimario}",
+                                                    "text": "${payload.texto.sprintTitle + ' ' + data.textoPrimario}",
                                                     "fontWeight": "bold",
                                                     "letterSpacing": "0.45vh"
                                                 },
